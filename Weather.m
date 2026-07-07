@@ -1,4 +1,4 @@
-%% Example: July temperature trend
+% Example: July temperature trend
 days = 1:31;
 
 Tmin = [23 24 24 25 25 24 23 24 25 26 26 25 24 24 25 26 27 27 26 25 24 24 25 26 27 27 26 25 25 24 24];
@@ -12,7 +12,7 @@ plotWeather(days, Tmin, Tmax, ...
     ForecastStartDay=25, ...
     DaySuffix="");
 
-%% Local function
+% Local function
 function plotWeather(days, Tmin, Tmax, opt)
 % Plot minimum and maximum temperature trends.
 
